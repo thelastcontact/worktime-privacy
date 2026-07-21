@@ -12,25 +12,25 @@
     h1 { font-size: clamp(2rem, 7vw, 3.25rem); margin-bottom: 0; }
     h2 { margin-top: 2rem; color: #62d985; }
     a { color: #54a8ff; }
+    select { padding: 8px 12px; margin: 20px 0; border-radius: 8px; background: #181824; color: inherit; }
+    .language { display: none; }
   </style>
 </head>
 <body>
 <main>
-  <h1>Here – Support</h1>
-  <p>Help for the Here safety check-in app for iPhone and Apple Watch.</p>
-  <h2>Contact</h2>
-  <p>Email <a href="mailto:mic.bur@email.cz?subject=Here%20Support">mic.bur@email.cz</a>. Include the app version, device model and a short description of the problem. Do not include health information, precise location or other sensitive data.</p>
-  <h2>Pairing</h2>
-  <p>Open Mutual Monitoring and display My Code on one device. On the other device, tap Add Contact and scan or enter the code. Both devices need an internet connection and notification permission.</p>
-  <h2>Notifications</h2>
-  <p>Open iOS Settings → Notifications → Here and enable notifications. Time-sensitive notifications can be enabled separately.</p>
-  <h2>Apple Watch</h2>
-  <p>Verify that Here Watch is installed in the Watch app and that Health permissions are enabled. Heart-rate monitoring requires a supported Apple Watch worn on the wrist.</p>
-  <h2>Account and data deletion</h2>
-  <p>Open Here → Settings → Delete Account. This removes the local profile and requests deletion of associated server data.</p>
-  <h2>Emergency disclaimer</h2>
-  <p>Here does not replace emergency services. Contact local emergency services immediately when urgent help is required.</p>
-  <p><a href="./">Privacy Policy</a></p>
+  <select id="language" aria-label="Language"><option value="en">English</option><option value="cs">Čeština</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="es">Español</option></select>
+  <section class="language" data-language="en" lang="en"><h1>Here – Support</h1><p>Help for Here on iPhone and Apple Watch.</p><h2>Contact</h2><p>Email <a href="mailto:mic.bur@email.cz?subject=Here%20Support">mic.bur@email.cz</a>. Include the app version, device model and a short description. Do not send health data or precise location.</p><h2>Pairing</h2><p>Display My Code on one device, then tap Add Contact on the other and scan or enter it. Both devices need internet and notification permission.</p><h2>Notifications and Apple Watch</h2><p>Enable Here notifications in iOS Settings. Verify that Here Watch is installed and Health permissions are enabled.</p><h2>Account deletion</h2><p>Open Here → Settings → Delete Account.</p><h2>Emergency disclaimer</h2><p>Here does not replace emergency services.</p><p><a href="./">Privacy Policy</a></p></section>
+  <section class="language" data-language="cs" lang="cs"><h1>Here – Podpora</h1><p>Nápověda k aplikaci Here pro iPhone a Apple Watch.</p><h2>Kontakt</h2><p>Napište na <a href="mailto:mic.bur@email.cz?subject=Here%20Podpora">mic.bur@email.cz</a>. Uveďte verzi aplikace, model zařízení a stručný popis. Neposílejte zdravotní údaje ani přesnou polohu.</p><h2>Párování</h2><p>Na jednom zařízení zobrazte Můj kód, na druhém klepněte na Přidat kontakt a kód naskenujte nebo zadejte. Obě zařízení potřebují internet a povolená oznámení.</p><h2>Oznámení a Apple Watch</h2><p>Povolte oznámení Here v Nastavení iOS. Ověřte instalaci Here Watch a oprávnění aplikace Zdraví.</p><h2>Odstranění účtu</h2><p>Otevřete Here → Nastavení → Odstranit účet.</p><h2>Upozornění</h2><p>Here nenahrazuje tísňové služby.</p><p><a href="./">Zásady ochrany soukromí</a></p></section>
+  <section class="language" data-language="de" lang="de"><h1>Here – Support</h1><p>Hilfe für Here auf iPhone und Apple Watch.</p><h2>Kontakt</h2><p>Schreibe an <a href="mailto:mic.bur@email.cz?subject=Here%20Support">mic.bur@email.cz</a>. Nenne App-Version, Gerätemodell und eine kurze Beschreibung. Sende keine Gesundheitsdaten oder genauen Standorte.</p><h2>Kopplung</h2><p>Zeige „Mein Code“ auf einem Gerät an und wähle auf dem anderen „Kontakt hinzufügen“, um ihn zu scannen oder einzugeben. Beide Geräte benötigen Internet und Benachrichtigungen.</p><h2>Mitteilungen und Apple Watch</h2><p>Aktiviere Here-Mitteilungen in den iOS-Einstellungen. Prüfe die Installation von Here Watch und die Health-Berechtigungen.</p><h2>Konto löschen</h2><p>Öffne Here → Einstellungen → Konto löschen.</p><h2>Hinweis</h2><p>Here ersetzt keine Notfalldienste.</p><p><a href="./">Datenschutzrichtlinie</a></p></section>
+  <section class="language" data-language="fr" lang="fr"><h1>Here – Assistance</h1><p>Aide pour Here sur iPhone et Apple Watch.</p><h2>Contact</h2><p>Écrivez à <a href="mailto:mic.bur@email.cz?subject=Here%20Assistance">mic.bur@email.cz</a>. Indiquez la version, le modèle et une brève description. N’envoyez ni données de santé ni position précise.</p><h2>Association</h2><p>Affichez Mon code sur un appareil, puis touchez Ajouter un contact sur l’autre pour le scanner ou le saisir. Les deux appareils nécessitent Internet et les notifications.</p><h2>Notifications et Apple Watch</h2><p>Activez les notifications Here dans les réglages iOS. Vérifiez l’installation de Here Watch et les autorisations Santé.</p><h2>Suppression du compte</h2><p>Ouvrez Here → Réglages → Supprimer le compte.</p><h2>Avertissement</h2><p>Here ne remplace pas les services d’urgence.</p><p><a href="./">Politique de confidentialité</a></p></section>
+  <section class="language" data-language="es" lang="es"><h1>Here – Asistencia</h1><p>Ayuda para Here en iPhone y Apple Watch.</p><h2>Contacto</h2><p>Escribe a <a href="mailto:mic.bur@email.cz?subject=Here%20Asistencia">mic.bur@email.cz</a>. Indica la versión, el modelo y una breve descripción. No envíes datos de salud ni ubicación precisa.</p><h2>Vinculación</h2><p>Muestra Mi código en un dispositivo y pulsa Añadir contacto en el otro para escanearlo o introducirlo. Ambos necesitan internet y notificaciones.</p><h2>Notificaciones y Apple Watch</h2><p>Activa las notificaciones de Here en Ajustes de iOS. Comprueba la instalación de Here Watch y los permisos de Salud.</p><h2>Eliminar la cuenta</h2><p>Abre Here → Ajustes → Eliminar cuenta.</p><h2>Aviso</h2><p>Here no sustituye a los servicios de emergencia.</p><p><a href="./">Política de privacidad</a></p></section>
 </main>
+<script>
+  const supported = ["en", "cs", "de", "fr", "es"];
+  const selector = document.getElementById("language");
+  const requested = new URLSearchParams(location.search).get("lang") || navigator.language.slice(0, 2);
+  function showLanguage(language) { const selected = supported.includes(language) ? language : "en"; document.querySelectorAll(".language").forEach(section => section.style.display = section.dataset.language === selected ? "block" : "none"); selector.value = selected; document.documentElement.lang = selected; }
+  selector.addEventListener("change", event => showLanguage(event.target.value)); showLanguage(requested);
+</script>
 </body>
 </html>

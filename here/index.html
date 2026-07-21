@@ -13,46 +13,88 @@
     h2 { margin-top: 2rem; color: #62d985; }
     .updated { color: #a1a1aa; }
     a { color: #54a8ff; }
+    select { padding: 8px 12px; margin: 20px 0; border-radius: 8px; background: #181824; color: inherit; }
+    .language { display: none; }
   </style>
 </head>
 <body>
 <main>
-  <h1>Here – Privacy Policy</h1>
-  <p class="updated">Last updated: July 21, 2026</p>
-  <p>Here is a personal safety and check-in application. This policy covers the iPhone app, Apple Watch app, widgets, mutual monitoring, safety alerts and SOS features.</p>
+  <select id="language" aria-label="Language">
+    <option value="en">English</option><option value="cs">Čeština</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="es">Español</option>
+  </select>
 
-  <h2>Data we process</h2>
-  <ul>
-    <li>Your display name, internal account identifier and device notification token.</li>
-    <li>Names and phone numbers of trusted contacts you provide.</li>
-    <li>Check-in status, schedules, travel information and content you enter.</li>
-    <li>Heart-rate and activity information when you grant Health and Motion access.</li>
-    <li>Precise location while an SOS location-sharing feature is active.</li>
-    <li>Subscription status and technical diagnostics required to operate the service.</li>
-  </ul>
+  <section class="language" data-language="en" lang="en">
+    <h1>Here – Privacy Policy</h1><p class="updated">Last updated: July 21, 2026</p>
+    <p>Here is a personal safety and check-in application for iPhone and Apple Watch.</p>
+    <h2>Data we process</h2><p>We process your display name, internal account identifier, notification token, trusted-contact details, check-in status, schedules, travel information and content you enter. With your permission, we also process heart-rate and activity information and precise location while SOS sharing is active.</p>
+    <h2>Use, storage and providers</h2><p>Data is used only for check-ins, mutual monitoring, reminders, alerts, SOS location sharing, subscriptions, operation and support. Settings remain on your device where possible. Features that synchronize information store the minimum necessary data on secured cloud infrastructure and may use Apple, cloud hosting, notification and messaging providers.</p>
+    <p>We do not sell personal data, track you across other companies’ apps or use Health data for advertising or marketing.</p>
+    <h2>Retention and deletion</h2><p>Data is retained only while needed to provide the service or meet legal obligations. Delete your account and server data in <strong>Here → Settings → Delete Account</strong>. Deleting the app removes local data.</p>
+    <h2>Permissions and security</h2><p>Permissions are requested only for related features and can be revoked in iOS Settings. We use reasonable safeguards, but no system is completely secure. Here does not replace emergency services.</p>
+    <h2>Children</h2><p>Here is not directed to children below the minimum digital-consent age in their country.</p>
+    <h2>Contact</h2><p><a href="mailto:mic.bur@email.cz">mic.bur@email.cz</a> · <a href="support.html">Support</a></p>
+  </section>
 
-  <h2>How data is used</h2>
-  <p>Data is used only to provide check-ins, mutual monitoring, reminders, alerts, SOS location sharing, subscriptions, technical operation and support. Health and fitness data is never used for advertising, marketing or data brokerage.</p>
+  <section class="language" data-language="cs" lang="cs">
+    <h1>Here – Zásady ochrany soukromí</h1><p class="updated">Aktualizováno: 21. července 2026</p>
+    <p>Here je aplikace pro osobní bezpečnost a pravidelné kontroly na iPhonu a Apple Watch.</p>
+    <h2>Zpracovávané údaje</h2><p>Zpracováváme zobrazované jméno, interní identifikátor účtu, token oznámení, údaje důvěryhodných kontaktů, stav kontrol, plány, cestovní informace a obsah, který zadáte. S vaším svolením také údaje o srdečním tepu a aktivitě a přesnou polohu během aktivního sdílení SOS.</p>
+    <h2>Použití, ukládání a poskytovatelé</h2><p>Údaje používáme pouze pro kontroly, vzájemné hlídání, připomínky, výstrahy, sdílení polohy SOS, předplatné, provoz a podporu. Nastavení zůstává podle možností v zařízení. Synchronizované funkce ukládají nezbytné minimum v zabezpečené cloudové infrastruktuře a mohou využívat služby Apple, cloudového hostingu, oznámení a zpráv.</p>
+    <p>Osobní údaje neprodáváme, nesledujeme vás napříč aplikacemi jiných společností a zdravotní údaje nepoužíváme pro reklamu ani marketing.</p>
+    <h2>Uchování a odstranění</h2><p>Údaje uchováváme pouze po dobu nutnou pro službu nebo zákonné povinnosti. Účet a serverová data odstraníte v <strong>Here → Nastavení → Odstranit účet</strong>. Odinstalováním aplikace odstraníte místní data.</p>
+    <h2>Oprávnění a zabezpečení</h2><p>Oprávnění žádáme pouze pro související funkce a lze je odvolat v Nastavení iOS. Používáme přiměřené zabezpečení, žádný systém však není zcela bezpečný. Here nenahrazuje tísňové služby.</p>
+    <h2>Děti</h2><p>Here není určena dětem pod minimálním věkem digitálního souhlasu v jejich zemi.</p>
+    <h2>Kontakt</h2><p><a href="mailto:mic.bur@email.cz">mic.bur@email.cz</a> · <a href="support.html">Podpora</a></p>
+  </section>
 
-  <h2>Storage and providers</h2>
-  <p>Settings are stored on your device. Features that synchronize safety status, contacts, notifications or SOS information also store the minimum necessary data on secured cloud infrastructure. Necessary data may be processed by Apple services, cloud hosting and notification providers, and messaging providers when those features are used.</p>
-  <p>We do not sell personal data and do not track users across apps or websites owned by other companies.</p>
+  <section class="language" data-language="de" lang="de">
+    <h1>Here – Datenschutzrichtlinie</h1><p class="updated">Aktualisiert: 21. Juli 2026</p>
+    <p>Here ist eine App für persönliche Sicherheit und regelmäßige Check-ins auf iPhone und Apple Watch.</p>
+    <h2>Verarbeitete Daten</h2><p>Wir verarbeiten Anzeigenamen, interne Konto-ID, Benachrichtigungstoken, Angaben zu Vertrauenskontakten, Check-in-Status, Zeitpläne, Reiseinformationen und eingegebene Inhalte. Mit deiner Erlaubnis verarbeiten wir außerdem Herzfrequenz- und Aktivitätsdaten sowie den genauen Standort während einer aktiven SOS-Freigabe.</p>
+    <h2>Nutzung, Speicherung und Anbieter</h2><p>Daten werden nur für Check-ins, gegenseitige Überwachung, Erinnerungen, Warnungen, SOS-Standortfreigabe, Abonnements, Betrieb und Support verwendet. Einstellungen bleiben soweit möglich auf deinem Gerät. Synchronisierte Funktionen speichern nur erforderliche Daten in gesicherter Cloud-Infrastruktur und können Apple-, Hosting-, Benachrichtigungs- und Nachrichtendienste nutzen.</p>
+    <p>Wir verkaufen keine personenbezogenen Daten, verfolgen dich nicht über Apps anderer Unternehmen und nutzen Gesundheitsdaten nicht für Werbung oder Marketing.</p>
+    <h2>Aufbewahrung und Löschung</h2><p>Daten werden nur so lange gespeichert, wie es für den Dienst oder gesetzliche Pflichten nötig ist. Konto und Serverdaten löschst du unter <strong>Here → Einstellungen → Konto löschen</strong>. Das Löschen der App entfernt lokale Daten.</p>
+    <h2>Berechtigungen und Sicherheit</h2><p>Berechtigungen werden nur für zugehörige Funktionen angefragt und können in den iOS-Einstellungen widerrufen werden. Wir verwenden angemessene Schutzmaßnahmen, aber kein System ist vollständig sicher. Here ersetzt keine Notfalldienste.</p>
+    <h2>Kinder</h2><p>Here richtet sich nicht an Kinder unter dem Mindestalter für digitale Einwilligung in ihrem Land.</p>
+    <h2>Kontakt</h2><p><a href="mailto:mic.bur@email.cz">mic.bur@email.cz</a> · <a href="support.html">Support</a></p>
+  </section>
 
-  <h2>Retention and deletion</h2>
-  <p>Server data is retained while needed to provide the service or comply with legal obligations. Delete your account and associated server data in <strong>Here → Settings → Delete Account</strong>. Local information can be removed by deleting the app.</p>
+  <section class="language" data-language="fr" lang="fr">
+    <h1>Here – Politique de confidentialité</h1><p class="updated">Mise à jour : 21 juillet 2026</p>
+    <p>Here est une application de sécurité personnelle et de contrôles réguliers pour iPhone et Apple Watch.</p>
+    <h2>Données traitées</h2><p>Nous traitons le nom affiché, l’identifiant interne, le jeton de notification, les coordonnées des contacts de confiance, l’état des contrôles, les horaires, les informations de voyage et le contenu saisi. Avec votre autorisation, nous traitons aussi la fréquence cardiaque, l’activité et la position précise pendant un partage SOS actif.</p>
+    <h2>Utilisation, stockage et prestataires</h2><p>Les données servent uniquement aux contrôles, à la surveillance mutuelle, aux rappels, alertes, partages SOS, abonnements, au fonctionnement et à l’assistance. Les réglages restent sur l’appareil lorsque possible. Les fonctions synchronisées stockent le minimum nécessaire dans une infrastructure cloud sécurisée et peuvent utiliser les services Apple, d’hébergement, de notification et de messagerie.</p>
+    <p>Nous ne vendons pas les données personnelles, ne vous suivons pas dans les apps d’autres sociétés et n’utilisons pas les données de santé à des fins publicitaires ou marketing.</p>
+    <h2>Conservation et suppression</h2><p>Les données sont conservées uniquement le temps nécessaire au service ou aux obligations légales. Supprimez le compte et les données serveur dans <strong>Here → Réglages → Supprimer le compte</strong>. La suppression de l’app efface les données locales.</p>
+    <h2>Autorisations et sécurité</h2><p>Les autorisations ne sont demandées que pour les fonctions concernées et peuvent être retirées dans les réglages iOS. Nous appliquons des mesures raisonnables, mais aucun système n’est totalement sûr. Here ne remplace pas les services d’urgence.</p>
+    <h2>Enfants</h2><p>Here ne s’adresse pas aux enfants n’ayant pas atteint l’âge minimal de consentement numérique dans leur pays.</p>
+    <h2>Contact</h2><p><a href="mailto:mic.bur@email.cz">mic.bur@email.cz</a> · <a href="support.html">Assistance</a></p>
+  </section>
 
-  <h2>Permissions</h2>
-  <p>Here requests access only when a related feature needs it. Permissions can be reviewed or revoked in iOS Settings. Some functionality will be unavailable after permission is revoked.</p>
-
-  <h2>Security and safety</h2>
-  <p>Reasonable safeguards are used to protect information, but no transmission or storage system can be guaranteed completely secure. Here is an assistance tool and does not replace emergency services.</p>
-
-  <h2>Children</h2>
-  <p>Here is not directed to children under the minimum age required to consent to data processing in their country. We do not knowingly collect children’s information without appropriate authorization.</p>
-
-  <h2>Contact</h2>
-  <p>Privacy requests: <a href="mailto:mic.bur@email.cz">mic.bur@email.cz</a></p>
-  <p><a href="support.html">Support</a></p>
+  <section class="language" data-language="es" lang="es">
+    <h1>Here – Política de privacidad</h1><p class="updated">Actualizada: 21 de julio de 2026</p>
+    <p>Here es una aplicación de seguridad personal y controles periódicos para iPhone y Apple Watch.</p>
+    <h2>Datos tratados</h2><p>Tratamos el nombre mostrado, identificador interno, token de notificaciones, datos de contactos de confianza, estado de controles, horarios, información de viaje y contenido introducido. Con tu permiso, también tratamos frecuencia cardiaca, actividad y ubicación precisa mientras está activo el uso compartido SOS.</p>
+    <h2>Uso, almacenamiento y proveedores</h2><p>Los datos se usan solo para controles, vigilancia mutua, recordatorios, alertas, ubicación SOS, suscripciones, funcionamiento y asistencia. Los ajustes permanecen en el dispositivo cuando es posible. Las funciones sincronizadas almacenan el mínimo necesario en infraestructura segura y pueden usar servicios de Apple, alojamiento, notificaciones y mensajería.</p>
+    <p>No vendemos datos personales, no te rastreamos en apps de otras empresas ni usamos datos de salud para publicidad o marketing.</p>
+    <h2>Conservación y eliminación</h2><p>Los datos se conservan solo mientras sean necesarios para el servicio o las obligaciones legales. Elimina la cuenta y los datos del servidor en <strong>Here → Ajustes → Eliminar cuenta</strong>. Al eliminar la app se borran los datos locales.</p>
+    <h2>Permisos y seguridad</h2><p>Los permisos se solicitan solo para funciones relacionadas y pueden revocarse en Ajustes de iOS. Aplicamos medidas razonables, pero ningún sistema es totalmente seguro. Here no sustituye a los servicios de emergencia.</p>
+    <h2>Menores</h2><p>Here no está dirigida a menores de la edad mínima de consentimiento digital de su país.</p>
+    <h2>Contacto</h2><p><a href="mailto:mic.bur@email.cz">mic.bur@email.cz</a> · <a href="support.html">Asistencia</a></p>
+  </section>
 </main>
+<script>
+  const supported = ["en", "cs", "de", "fr", "es"];
+  const selector = document.getElementById("language");
+  const requested = new URLSearchParams(location.search).get("lang") || navigator.language.slice(0, 2);
+  function showLanguage(language) {
+    const selected = supported.includes(language) ? language : "en";
+    document.querySelectorAll(".language").forEach(section => section.style.display = section.dataset.language === selected ? "block" : "none");
+    selector.value = selected;
+    document.documentElement.lang = selected;
+  }
+  selector.addEventListener("change", event => showLanguage(event.target.value));
+  showLanguage(requested);
+</script>
 </body>
 </html>
